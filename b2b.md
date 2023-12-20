@@ -1,4 +1,4 @@
-# Smart Contract Wrapper - Standard Provisions
+# B2B Smart Contract Wrapper - Standard Provisions
 
 ## Problem
 
