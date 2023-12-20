@@ -4,6 +4,8 @@
 
 This legal terms "wrapper" focusses on a scenario where a business sells fungible or non-fungible tokens to a consumer.
 
+The wrapper assumes the use of [Rainlang](https://rainlang.xyz/).
+
 ## Creating Agreement
 
 ## Problem
@@ -45,6 +47,12 @@ The consequence of this is that other transactions running on the blockchain won
 We should note that most users interact with the blockchain through user interfaces that build and send transaction messages on their behalf.
 
 We will need to obligate user interface providers to ensure that users of their interface view the terms before using them to sign a transaction.
+
+### Magic number
+
+Rain protocol uses a "magic number" so that the Rain smart contracts know how to interpret the calldata to do the Terms hash check.
+
+For more details on this, take a look at the docs: https://github.com/rainlanguage/specs/blob/main/metadata-v1.md#magic-numbers
 
 ### Terms required
 
