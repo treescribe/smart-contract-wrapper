@@ -32,7 +32,7 @@ It's important to note that the Ethereum consensus infrastructure:
 
 This means we have all the data integrity guarantees of blockchain data on the question of a buyer signing a transaction message that contains the right Terms to use the smart contract.
 
-The calldata with this information can be accessed with indexers and subgraphs off-chain.
+The calldata with this information can be accessed with indexers (eg subgraphs) off-chain.
 
 ### Calldata is cheap
 
